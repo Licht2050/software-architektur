@@ -16,5 +16,35 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global}\enddatalist
+\datalist[entry]{nty/global//global/global}
+  \entry{doktor-thesis}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=KDWIAT}{%
+         family={Kühn},
+         familyi={K\bibinitperiod},
+         given={Dipl.-Wirt.-Ing. Arno\bibnamedelima Theodor},
+         giveni={D\bibinithyphendelim W\bibinithyphendelim
+  I\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KDWIAT1}
+    \strng{fullhash}{KDWIAT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{Systematik zur Release-Planung intelligenter technischer
+  Systeme}
+    \verb{url}
+    \verb https://digital.ub.uni-paderborn.de/hs/content/titleinfo/2404085
+    \endverb
+    \list{institution}{1}{%
+      {Universitätsbibliothek Paderborn}%
+    }
+    \field{type}{Doktor-Thesis}
+    \field{day}{27}
+    \field{month}{10}
+    \field{year}{2016}
+  \endentry
+\enddatalist
 \endinput

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.7.7)  6 MAR 2022 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.7.7)  6 MAR 2022 16:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1648,16 +1648,8 @@ chapter 4.
 ] [8
 
 
-] (./Chapters/Release-Management-Methoden/CICD.tex
-chapter 5.
-) [9
-
-
-] [10
-
-
 ] (./Chapters/FallStudie/Projektbeschreibung.tex
-chapter 6.
+chapter 5.
 (./Chapters/FallStudie/Anforderungen.tex
 Overfull \hbox (7.0377pt too wide) in paragraph at lines 14--47
 []  
@@ -1666,27 +1658,63 @@ Overfull \hbox (7.0377pt too wide) in paragraph at lines 14--47
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./Chapters/FallStudie/Konzeption.tex)
+
+Overfull \hbox (2.25398pt too wide) in paragraph at lines 55--56
+\T1/ppl/m/n/12 (-10) Nicht-funktionale An-for-de-run-gen be-schrei-ben die Qua-
+li-tät der oben ge-nann-ten Funk-
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 5
+8.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+) [9
+
+
+] [10])
+(./Chapters/FallStudie/Konzeption.tex
+Underfull \hbox (badness 10000) in paragraph at lines 13--18
+
+ []
+
+
+Overfull \hbox (16.61865pt too wide) in paragraph at lines 13--18
+\T1/ppl/m/n/12 (-10) de-run-gen, die im Ab-schnitt []5.1[] auf-ge-lis-tet sind,
+ ei-ne hier-ar-chi-sche Software-Deployment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--18
+
+ []
+
+[11]
+<Graphics/architektur.jpeg, id=219, 1271.75125pt x 527.9725pt>
+File: Graphics/architektur.jpeg Graphic file (type jpg)
+<use Graphics/architektur.jpeg>
+Package pdftex.def Info: Graphics/architektur.jpeg  used on input line 22.
+(pdftex.def)             Requested size: 308.71106pt x 128.15804pt.
+ [12 <./Graphics/architektur.jpeg>])
 (./Chapters/FallStudie/Entwicklungsvorgang.tex)
-(./Chapters/FallStudie/Implementierung.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 3--12
+
+ []
+
+[13] (./Chapters/FallStudie/Implementierung.tex
 (./Chapters/FallStudie/Aufbau-umgebung.tex)
-(./Chapters/FallStudie/Implementierung-Release-Management.tex)) [11
-
-
-] [12]
-[13] [14
-
-
-] (./Chapters/Evaluation.tex
-chapter 7.
+(./Chapters/FallStudie/Implementierung-Release-Management.tex))) [14]
+(./Chapters/Evaluation.tex
+chapter 6.
 ) [15
+
+
 
 
 ] [16
 
 
 ] (./Chapters/Zusammenfassung.tex
-chapter 8.
+chapter 7.
 )) [17
 
 
@@ -1698,12 +1726,19 @@ chapter 8.
 \openout2 = `FrontBackmatter/Bibliography.aux'.
 
  (./FrontBackmatter/Bibliography.tex)
+chapter without number
+[19
 
-LaTeX Warning: Empty bibliography on input line 4.
 
+
+] [20
+
+
+
+]
 \openout2 = `FrontBackmatter/ListOfs.aux'.
 
-(./FrontBackmatter/ListOfs.tex
+ (./FrontBackmatter/ListOfs.tex
 Package tocbasic Info: character protrusion at lof deactivated on input line 8.
 
  (./00_htwsaar-i-mst-vorlage.lof)
@@ -1723,11 +1758,7 @@ Package tocbasic Info: character protrusion at lol deactivated on input line 11
 \tf@lol=\write9
 \openout9 = `00_htwsaar-i-mst-vorlage.lol'.
 
-) [19
-
-
-
-
+) [21
 
 
 
@@ -1735,16 +1766,16 @@ Package tocbasic Info: character protrusion at lol deactivated on input line 11
 \openout2 = `FrontBackmatter/Abbreviations.aux'.
 
 
-(./FrontBackmatter/Abbreviations.tex [20
+(./FrontBackmatter/Abbreviations.tex [22
 
 
 
 
-]) [21] [22
+]) [23] [24
 
 
 
-] [23] [24]
+] [25] [26]
 No complaints by nag.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
@@ -1763,11 +1794,11 @@ Package logreq Info: Writing requests to '00_htwsaar-i-mst-vorlage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36633 strings out of 481239
- 722123 string characters out of 5920378
- 1571092 words of memory out of 5000000
- 50983 multiletter control sequences out of 15000+600000
- 560965 words of font info for 110 fonts, out of 8000000 for 9000
+ 36930 strings out of 481239
+ 727406 string characters out of 5920378
+ 1572333 words of memory out of 5000000
+ 51225 multiletter control sequences out of 15000+600000
+ 569148 words of font info for 144 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  76i,20n,125p,10119b,2280s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
@@ -1775,10 +1806,10 @@ e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/c
 m-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/up
 lb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on 00_htwsaar-i-mst-vorlage.pdf (32 pages, 160729 bytes).
+Output written on 00_htwsaar-i-mst-vorlage.pdf (34 pages, 231395 bytes).
 PDF statistics:
- 397 PDF objects out of 1000 (max. 8388607)
- 331 compressed objects within 4 object streams
- 79 named destinations out of 1000 (max. 500000)
- 29018 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 416 PDF objects out of 1000 (max. 8388607)
+ 347 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 36191 words of extra memory for PDF output out of 42996 (max. 10000000)
 

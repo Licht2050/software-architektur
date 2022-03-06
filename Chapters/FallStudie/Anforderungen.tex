@@ -1,11 +1,11 @@
-\section{Anforderungen}
+\section{Anforderungen}\label{anforderungen}
 
 In diesem Abschnitt werden die funktionale und nicht-funktionale Anforderungen für die Realisierung des Projekts analysiert.
 
 
 \subsection{Funktionale Anforderungen}
 
-Die funktionalen Anforderungen beschreiben die gewünschte Funktionalität und das Verhalten des Systems.
+Die funktionalen Anforderungen beschreiben die gewünschte Funktionalität und das Verhalten des Systems, die in Tabelle\ref{funktionale} aufgelistet sind.
 
 
 \begin{table}[h!]
@@ -45,7 +45,23 @@ Die funktionalen Anforderungen beschreiben die gewünschte Funktionalität und d
 			\end{tabular}	
 		}
 	\end{flushleft}
-	\caption{Funktionale Anforderungen}	
+	\caption{Funktionale Anforderungen}\label{funktionale}
 \end{table}
 
+
+
 \subsection{Nicht-Funktionale Anforderungen}
+
+Nicht-funktionale Anforderungen beschreiben die Qualität der oben genannten Funktionen, die erreicht werden müssen. Daher haben sie einen erheblichen Einfluss auf Ressourcenverbrauch, Entwicklung und Wartung. Darüber hinaus tragen diese Anforderungen dazu bei, die Akzeptanz des Systems zu verbessern. Einige dieser Anforderungen werden im Folgenden aufgelistet und erörtert.
+
+\begin{itemize}
+	\item \textbf{Zuverlässig:} Zuverlässigkeit stellt die Grundvoraussetzung für die Akzeptanz des Systems dar. Das korrekte Verhalten und der Übergang in einen sicheren Zustand im Fehlerfall muss immer gewährleistet sein. Falls die Übertragung der Software in einem inkorrekten Zustand endet, müssen Entwickler in der Lage sein, das System in den korrekten Zustand wiederherzustellen.
+	\item \textbf{Skalierbar:} Das Projekt soll skalierbar sein. Wenn man eine neue Ampel nachbauen möchte, sollte es einfach und nicht kompliziert sein.
+	\item \textbf{Fehlertoleranz:} Im Falle eines Fehlers sollte die Pipeline die weitere Ausführung anderer Schritte stoppen, wodurch Fehler vermieden werden, die aufgrund einer nachfolgenden Ausführung auftreten können.
+	\item \textbf{Robust:} Der Pull-Request soll nicht gemergt werden, bevor die Fehlerfreiheit des Programms durch bestehenden Unit-Test bestätigt wird.
+	\item \textbf{Zeiteffizient:} Der gesamte Prozess, von der Entwicklung bis zur Auslieferung, muss in kurzer Zeit und ohne Unterbrechung erfolgen.
+	\item \textbf{Echtzeitüberwachung:} Während der Übertragung des Software-Updates soll dieses in Echtzeit überwacht werden.
+	
+\end{itemize}
+
+
