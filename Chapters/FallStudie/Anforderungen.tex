@@ -1,6 +1,51 @@
 \section{Anforderungen}
 
+In diesem Abschnitt werden die funktionale und nicht-funktionale Anforderungen für die Realisierung des Projekts analysiert.
+
+
 \subsection{Funktionale Anforderungen}
 
+Die funktionalen Anforderungen beschreiben die gewünschte Funktionalität und das Verhalten des Systems.
+
+
+\begin{table}[h!]
+	\begin{flushleft}
+		{\small 
+			\begin{tabular}{|c|c|}
+				\hline
+				Must-have & 
+				\begin{minipage}{5in}
+					 \begin{enumerate}
+					 	\item Simulierung zwei Verkehrsampeln mithilfe von Raspberry Pi’s und LEDs
+					 	\item Automatische Steuerung der LEDs durch GPIO Schnittstelle
+					 	\item Entwicklung einer Software für das Blinken der gelben LED
+					 	\item Entwicklung einer Software für den Normalbetrieb der Ampel
+					 	\item Automatische Software-Test
+					 	\item Automatische Bereitstellung (release) der Software
+					 	\item Implementierung von CI/CD Software-Entwicklungsmethode
+					 \end{enumerate}
+				\end{minipage} \\
+				\hline
+				Should-have & 
+				\begin{minipage}{5in}
+					\begin{enumerate}
+						\item Automatische Containerisierung der für das Ampelsystem entwickelten Software mithilfe von Docker
+						\item Automatische Veröffentlichung von containerisierten Software auf Docker Hub
+						\item Orchestrierung der Docker-Containers mithilfe von Kubernetes
+					\end{enumerate}
+				\end{minipage} \\
+				\hline
+				Could-have & 
+				\begin{minipage}{5in}
+					\begin{enumerate}
+						\item Automatische Übertragung (deploy) der Software an das Endgerät
+					\end{enumerate}
+				\end{minipage} \\
+			\hline
+			\end{tabular}	
+		}
+	\end{flushleft}
+	\caption{Funktionale Anforderungen}	
+\end{table}
 
 \subsection{Nicht-Funktionale Anforderungen}
