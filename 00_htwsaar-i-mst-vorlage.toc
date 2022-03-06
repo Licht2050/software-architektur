@@ -40,16 +40,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.2}Implementierung des Release-Management-Prozesses}{14}{subsection.5.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Evaluation}{15}{chapter.6}%
+\contentsline {subsubsection}{\numberline {5.4.2.1}Umsetzung der Continues Integration und Continues Delivery Methode}{15}{subsubsection.5.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Zusammenfassung}{17}{chapter.7}%
+\contentsline {chapter}{\numberline {6}Evaluation}{17}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literatur}{19}{chapter*.6}%
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{19}{chapter.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{21}{chapter*.7}%
+\contentsline {chapter}{\nonumberline Literatur}{21}{chapter*.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{21}{chapter*.8}%
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{23}{chapter*.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Listings}{21}{chapter*.9}%
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{23}{chapter*.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abkürzungsverzeichnis}{23}{chapter*.10}%
+\contentsline {chapter}{\nonumberline Listings}{23}{chapter*.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abkürzungsverzeichnis}{25}{chapter*.14}%

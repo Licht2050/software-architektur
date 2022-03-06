@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.7.7)  6 MAR 2022 16:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.7.7)  6 MAR 2022 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1702,23 +1702,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--12
 
 [13] (./Chapters/FallStudie/Implementierung.tex
 (./Chapters/FallStudie/Aufbau-umgebung.tex)
-(./Chapters/FallStudie/Implementierung-Release-Management.tex))) [14]
-(./Chapters/Evaluation.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
+ []
+
+(./Chapters/FallStudie/Implementierung-Release-Management.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--7
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 10--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--17
+
+ []
+
+[15]
+Package acronym Info: Label `acro:CI/CD' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 23.
+))) [16] (./Chapters/Evaluation.tex
 chapter 6.
-) [15
+) [17
 
 
 
 
-] [16
+] [18
 
 
 ] (./Chapters/Zusammenfassung.tex
 chapter 7.
-)) [17
+)) [19
 
 
-] [18
+] [20
 
 
 
@@ -1727,11 +1749,11 @@ chapter 7.
 
  (./FrontBackmatter/Bibliography.tex)
 chapter without number
-[19
+[21
 
 
 
-] [20
+] [22
 
 
 
@@ -1758,7 +1780,7 @@ Package tocbasic Info: character protrusion at lol deactivated on input line 11
 \tf@lol=\write9
 \openout9 = `00_htwsaar-i-mst-vorlage.lol'.
 
-) [21
+) [23
 
 
 
@@ -1766,16 +1788,16 @@ Package tocbasic Info: character protrusion at lol deactivated on input line 11
 \openout2 = `FrontBackmatter/Abbreviations.aux'.
 
 
-(./FrontBackmatter/Abbreviations.tex [22
+(./FrontBackmatter/Abbreviations.tex [24
 
 
 
 
-]) [23] [24
+]) [25] [26
 
 
 
-] [25] [26]
+] [27] [28]
 No complaints by nag.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
@@ -1794,11 +1816,11 @@ Package logreq Info: Writing requests to '00_htwsaar-i-mst-vorlage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36930 strings out of 481239
- 727406 string characters out of 5920378
- 1572333 words of memory out of 5000000
- 51225 multiletter control sequences out of 15000+600000
- 569148 words of font info for 144 fonts, out of 8000000 for 9000
+ 36954 strings out of 481239
+ 728066 string characters out of 5920378
+ 1572337 words of memory out of 5000000
+ 51238 multiletter control sequences out of 15000+600000
+ 569307 words of font info for 146 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  76i,20n,125p,10119b,2280s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
@@ -1806,10 +1828,10 @@ e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/c
 m-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/up
 lb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on 00_htwsaar-i-mst-vorlage.pdf (34 pages, 231395 bytes).
+Output written on 00_htwsaar-i-mst-vorlage.pdf (36 pages, 236424 bytes).
 PDF statistics:
- 416 PDF objects out of 1000 (max. 8388607)
- 347 compressed objects within 4 object streams
- 83 named destinations out of 1000 (max. 500000)
+ 436 PDF objects out of 1000 (max. 8388607)
+ 365 compressed objects within 4 object streams
+ 91 named destinations out of 1000 (max. 500000)
  36191 words of extra memory for PDF output out of 42996 (max. 10000000)
 

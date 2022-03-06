@@ -1,3 +1,27 @@
 \subsection{Implementierung des Release-Management-Prozesses}
 
-Der Release-Management-Prozess enthält alle notwendigen Schritte, bis die Software auf das Endprodukt verteilt wird. Dies sind die Entwicklung-,Bild-,Test- und Deployment-Phase. Sobald der Entwicklungsprozess abgeschlossen ist, erfolgt die automatischen weiteren Phasen wie Bild- Release- Deployment-Phase. Das Update kann sowohl für alle angeschlossenen Ampelanlagen als auch für verschiedene Ampelanlagen durchgeführt werden.
+Der Release-Management-Prozess enthält alle notwendigen Schritte, bis die Software auf das Endprodukt verteilt wird. Dies sind die Entwicklung-,Build-,Test- und Deployment-Phase. Sobald der Entwicklungsprozess abgeschlossen ist, erfolgt die automatischen weiteren Phasen wie Build-, Release- und Deployment-Phase. Das Update kann sowohl für alle angeschlossenen Ampelanlagen als auch für verschiedene Ampelanlagen durchgeführt werden. 
+\newline\newline
+Im Laufe dieses Kapitels wird den ausgewählten Entwicklungsprozessentwurf umgesetzt und wird darauf eingegangen, wie es in der Realität ein Release erstellt wird.
+In der Buildphase wird die benötigte Dateien und deren Abhängigkeiten übersetzt und das Ergebnis zur Verfügung gestellt. Diese Phase ist für den gesamten Entwurf und die Implementierung der Architektur erforderlich. Nach der Build- und Release-Phase erfolgt die Deployment-Phase. In dieser Phase wird die Übertragung der Software bis zum Ampelanlage geschehen. Die Ausführung der Phasen erfolgt so weit wie möglich automatisiert und falls während der Ausführung Fehler auftreten, wird die Pipeline unterbrochen, wodurch die Fortsetzung der anderen Phasen verhindert wird.
+
+\subsubsection{Umsetzung der Continues Integration und Continues Delivery Methode}
+
+Nun nach der Entwicklungsphase kommt die CD-Phase zustande. Nach dem Start der CD-Pipeline beginnt die kontinuierliche Deployment-Phase an. Zu CD gehört die Build-,Release- und die Deployment-Phase. Um Continues Integration und Continues Delivery mit GitLab nutzen zu können, wird einen GitLab Runner benötigt. GitLab Runner ist eine Build-Instanz, die verwendet wird, um Aufgaben auf mehreren Computern auszuführen und die Ergebnisse durch „artifacts“ an GitLab zu übertragen.
+\newline\newline
+In diesem Projekt wird der Gitlab Runner auf dem Master-Node konfiguriert und mit einem Executer vorgesehen, der die vordefinierten Aufgaben in Gitlab aus-
+führt. Sobald der Runner registriert ist, initiiert das Runner Tag die Kommunikation zwischen der Gitlab-Plattform und dem Master-Node, auf dem der Runner installiert ist. Die möglichen Executors sind beispielsweise SSH, Shell, Docker, Kubernetes und einige andere. In diesem Projekt wird Kubernetes-Executer benutzt.
+\newline\newline
+Im
+Folgenden werden die einzelnen Phasendurchführungen erklärt.
+\subsubsection*{Build-Phase}
+
+Nun wenn die Pipeline gestartet wird, beginnt die Phasendurchführung der CD. Die erste Phase ist die Build-Phase, da in diesem Projekt Programmiersprache Pythen verwendet wird, wird diese Phase nicht in der Pipeline-Phasen hinzugefügt.
+
+\subsubsection*{Test-Phase}
+
+Nachdem der Prozess Merge von DevelopBranch mit  MasterBranch gestartet wird, folgt die \ac{CI/CD}-Testphase. Für die Testphase wird die Master-Node verwendet. In diesem Projekt wird UniTest für den RaspberryPi GPIO ausgeführt. Der Erfolg des Merge-Prozess hängt von den Ergebnissen von UniTest ab. Wenn der Test nicht erfolgreich abgeschlossen werden kann, wird auch der Merge-Prozess abgebrochen, um eine weitere Ausführung der \ac{CI/CD}-Phase zu verhindern.
+
+\subsubsection*{Publish and Release Phase}
+
+Nach erfolgreichem Merge-Prozess kann die weiter \ac{CI/CD}-Phase fortgesetzt werden. Nach der Vergabe des Release-Tags wird die Pipline gestartet und die zweite \ac{CI/CD}-Phase dieses Projektes ist die \glqq Publish and Release Phase\grqq. In dieser Phase wird die entwickelte Software als Docker-Image gekapselt, auf die Dockerhub-Plattform hochgeladen und zur Übertragung und/oder Installation bereitgestellt. Für die Ausführung dieser Phase wird erneuert der Runner der Master-Node benötigt. Durch das Hochladen des Images wird einen neuen Release erstellt. Außerdem wird ein gewohnliche Release auf dem GitLab-Plattform erstellt. Die Abbildung 7.4 veranschaulicht die Release-Phase anhand eines Sequenzdiagramms.
