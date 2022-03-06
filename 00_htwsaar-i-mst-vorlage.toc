@@ -1,6 +1,6 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {ngerman}{}
-\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}\relax 
+\babel@toc {ngerman}{}\relax 
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
@@ -14,42 +14,58 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Continuous Integration und Continuous Delivery}{7}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Continuous Integration und Continuous Delivery}{9}{chapter.5}%
+\contentsline {section}{\numberline {4.1}Continuous Integration}{7}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Fallstudie}{11}{chapter.6}%
+\contentsline {section}{\numberline {4.2}Continuous Delivery und Deployment}{9}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Anforderungen}{11}{section.6.1}%
+\contentsline {section}{\numberline {4.3}CI/CD Tools}{10}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Funktionale Anforderungen}{11}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {4.3.1}Concourse CI}{10}{subsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.2}Nicht-Funktionale Anforderungen}{13}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {4.3.2}GitLab}{13}{subsection.4.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Konzept}{13}{section.6.2}%
+\contentsline {subsection}{\numberline {4.3.3}CircleCI}{16}{subsection.4.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}Geeignete Software-Update-Strategie der Ampelanlage}{13}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {4.3.4}Jenkins}{17}{subsection.4.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}Software Update-Architektur der Ampelanlage}{13}{subsection.6.2.2}%
+\contentsline {chapter}{\numberline {5}Fallstudie}{19}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.3}Auswahl der geeigneten Release-Managementmethode}{13}{subsection.6.2.3}%
+\contentsline {section}{\numberline {5.1}Anforderungen}{19}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.4}Auswahl der geeigneten Release-Strategie}{13}{subsection.6.2.4}%
+\contentsline {subsection}{\numberline {5.1.1}Funktionale Anforderungen}{19}{subsection.5.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Entwicklungsvorgang}{13}{section.6.3}%
+\contentsline {subsection}{\numberline {5.1.2}Nicht-Funktionale Anforderungen}{21}{subsection.5.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Implementierung}{13}{section.6.4}%
+\contentsline {section}{\numberline {5.2}Konzept}{21}{section.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Aufbau der experimentellen Umgebung}{13}{section.6.5}%
+\contentsline {subsection}{\numberline {5.2.1}Geeignete Software-Update-Strategie der Ampelanlage}{21}{subsection.5.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.6}Implementierung des Release-Management-Prozesses}{13}{section.6.6}%
+\contentsline {subsection}{\numberline {5.2.2}Software Update-Architektur der Ampelanlage}{21}{subsection.5.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Evaluation}{15}{chapter.7}%
+\contentsline {subsection}{\numberline {5.2.3}Auswahl der geeigneten Release-Managementmethode}{21}{subsection.5.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Zusammenfassung}{17}{chapter.8}%
+\contentsline {subsection}{\numberline {5.2.4}Auswahl der geeigneten Release-Strategie}{21}{subsection.5.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{19}{chapter*.5}%
+\contentsline {section}{\numberline {5.3}Entwicklungsvorgang}{21}{section.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{19}{chapter*.6}%
+\contentsline {section}{\numberline {5.4}Implementierung}{21}{section.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Listings}{19}{chapter*.7}%
+\contentsline {section}{\numberline {5.5}Aufbau der experimentellen Umgebung}{21}{section.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Abkürzungsverzeichnis}{21}{chapter*.8}%
+\contentsline {section}{\numberline {5.6}Implementierung des Release-Management-Prozesses}{21}{section.5.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Evaluation}{23}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Zusammenfassung}{25}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Literatur}{27}{chapter*.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Abbildungsverzeichnis}{29}{chapter*.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Tabellenverzeichnis}{29}{chapter*.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Listings}{29}{chapter*.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abkürzungsverzeichnis}{31}{chapter*.14}%
+\defcounter {refsection}{0}\relax 
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

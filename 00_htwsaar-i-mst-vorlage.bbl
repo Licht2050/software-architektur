@@ -16,5 +16,553 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global}\enddatalist
+\datalist[entry]{nty/global//global/global}
+  \entry{Atlassian}{online}{}
+    \name{author}{1}{}{%
+      {{hash=A}{%
+         family={Atlassian},
+         familyi={A\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=PS}{%
+         family={Pittet},
+         familyi={P\bibinitperiod},
+         given={Sten},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{A1}
+    \strng{fullhash}{A1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{What are the differences between CI, CD, and CD?}
+    \verb{url}
+    \verb https://www.atlassian.com/continuous-delivery/principles/continuous-i
+    \verb ntegration-vs-delivery-vs-deployment
+    \endverb
+    \field{urlday}{02}
+    \field{urlmonth}{12}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{CircleCI:customers}{online}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={CircleCI},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Customers}
+    \verb{url}
+    \verb https://circleci.com/customers/
+    \endverb
+    \field{urlday}{20}
+    \field{urlmonth}{11}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{CircleCI:homepage}{online}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={CircleCI},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Homepage}
+    \verb{url}
+    \verb https://circleci.com/
+    \endverb
+    \field{urlday}{20}
+    \field{urlmonth}{11}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{CircleCI:notifications}{online}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={CircleCI},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Notifications}
+    \verb{url}
+    \verb https://circleci.com/docs/2.0/notifications/
+    \endverb
+    \field{urlday}{20}
+    \field{urlmonth}{11}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{CircleCI:pricing}{online}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={CircleCI},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Pricing}
+    \verb{url}
+    \verb https://circleci.com/pricing/
+    \endverb
+    \field{urlday}{20}
+    \field{urlmonth}{11}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{ConcourseCI:homepage}{online}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={ConcourseCI},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C2}
+    \strng{fullhash}{C2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Homepage}
+    \verb{url}
+    \verb https://concourse-ci.org/
+    \endverb
+    \field{urlday}{12}
+    \field{urlmonth}{12}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{ConcourseCI:pipelines}{online}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={ConcourseCI},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ConcourseCI}%
+    }
+    \strng{namehash}{C2}
+    \strng{fullhash}{C2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Pipelines}
+    \verb{url}
+    \verb https://concourse-ci.org/pipelines.html
+    \endverb
+    \field{urlday}{01}
+    \field{urlmonth}{11}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{ConcourseCI:Resources}{online}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={ConcourseCI},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C2}
+    \strng{fullhash}{C2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Resources}
+    \verb{url}
+    \verb https://concourse-ci.org/resources
+    \endverb
+    \field{urlday}{01}
+    \field{urlmonth}{11}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{ConcourseCI:git}{online}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={ConcourseCI},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C2}
+    \strng{fullhash}{C2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{git-resource}
+    \verb{url}
+    \verb https://github.com/concourse/git-resource
+    \endverb
+    \field{urlday}{01}
+    \field{urlmonth}{11}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{ConcourseCI:jobs}{online}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={ConcourseCI},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C2}
+    \strng{fullhash}{C2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{jobs}
+    \verb{url}
+    \verb https://concourse-ci.org/jobs.html
+    \endverb
+    \field{urlday}{02}
+    \field{urlmonth}{11}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{ConcourseCI:resourcetypes}{online}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={ConcourseCI},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C2}
+    \strng{fullhash}{C2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{resource-types}
+    \verb{url}
+    \verb https://concourse-ci.org/resource-types.html
+    \endverb
+    \field{urlday}{02}
+    \field{urlmonth}{11}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{ConcourseCI:tasks}{online}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={ConcourseCI},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C2}
+    \strng{fullhash}{C2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{tasks}
+    \verb{url}
+    \verb https://concourse-ci.org/tasks.html
+    \endverb
+    \field{urlday}{02}
+    \field{urlmonth}{11}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{ConcourseCI:time}{online}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={ConcourseCI},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C2}
+    \strng{fullhash}{C2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{time-resource}
+    \verb{url}
+    \verb https://github.com/concourse/time-resource
+    \endverb
+    \field{urlday}{01}
+    \field{urlmonth}{11}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{Fowler2006}{online}{}
+    \name{author}{1}{}{%
+      {{hash=FM}{%
+         family={Fowler},
+         familyi={F\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FM1}
+    \strng{fullhash}{FM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{Continuous Integration}
+    \verb{url}
+    \verb https://moodle2019-20.ua.es/moodle/pluginfile.php/2228/mod_resource/c
+    \verb ontent/2/martin-fowler-continuous-integration.pdf
+    \endverb
+    \field{day}{01}
+    \field{month}{05}
+    \field{year}{2006}
+    \field{urlday}{05}
+    \field{urlmonth}{12}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{GitLab:about}{online}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={GitLab},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G1}
+    \strng{fullhash}{G1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{About Page}
+    \verb{url}
+    \verb https://about.gitlab.com/
+    \endverb
+    \field{urlday}{06}
+    \field{urlmonth}{11}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{GitLab:CD}{online}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={GitLab},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G1}
+    \strng{fullhash}{G1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{Continuous Delivery}
+    \verb{url}
+    \verb https://docs.gitlab.com/ee/ci/introduction/#continuous-deployment
+    \endverb
+    \field{urlday}{19}
+    \field{urlmonth}{11}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{GitLab:jobs}{online}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={GitLab},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G1}
+    \strng{fullhash}{G1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{Jobs}
+    \verb{url}
+    \verb https://docs.gitlab.com/ee/ci/jobs/
+    \endverb
+    \field{urlday}{06}
+    \field{urlmonth}{11}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{GitLab:stages}{online}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={GitLab},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G1}
+    \strng{fullhash}{G1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{Stages}
+    \verb{url}
+    \verb https://docs.gitlab.com/ee/ci/yaml/#stages
+    \endverb
+    \field{urlday}{07}
+    \field{urlmonth}{11}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{Jenkins:pipeline}{online}{}
+    \name{author}{1}{}{%
+      {{hash=J}{%
+         family={Jenkins},
+         familyi={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{J1}
+    \strng{fullhash}{J1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{title}{Pipelines}
+    \verb{url}
+    \verb https://www.jenkins.io/doc/tutorials/#pipeline/
+    \endverb
+    \field{urlday}{22}
+    \field{urlmonth}{11}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{JezHumble2010}{book}{}
+    \name{author}{1}{}{%
+      {{hash=JHDF}{%
+         family={Jez\bibnamedelima Humble},
+         familyi={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+         given={David\bibnamedelima Farley},
+         giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JHDF1}
+    \strng{fullhash}{JHDF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{isbn}{978-0321601919}
+    \field{title}{Continuous Delivery: Reliable Software Releases Through
+  Build, Test, and Deployment Automation}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Meyer2014}{online}{}
+    \name{author}{1}{}{%
+      {{hash=MM}{%
+         family={Meyer},
+         familyi={M\bibinitperiod},
+         given={Mathias},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{MM1}
+    \strng{fullhash}{MM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Continuous Integration and Its Tools}
+    \verb{url}
+    \verb https://ieeexplore.ieee.org/abstract/document/6802994?casa_token=SZ9-
+    \verb UsnQUSEAAAAA:6AOfd8J5Sw7RSixp5_BZFuWCC4O5q2Ff84BNgx9mGGNUw4A_Lg2ib2FN
+    \verb FbzWbBGJvuVGu3DTToUrDA
+    \endverb
+    \field{day}{01}
+    \field{month}{06}
+    \field{year}{2014}
+    \field{urlday}{02}
+    \field{urlmonth}{12}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{Shahin2017}{online}{}
+    \name{author}{1}{}{%
+      {{hash=MSLZMAB}{%
+         family={Mojtaba\bibnamedelima Shahin},
+         familyi={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+         suffix={Muhammad Ali\bibnamedelima Babar},
+         suffixi={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  B\bibinitperiod},
+         given={Liming\bibnamedelima Zhu},
+         giveni={L\bibinitperiod\bibinitdelim Z\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{MSMABLZ1}
+    \strng{fullhash}{MSMABLZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Continuous Integration,Delivery and Deployment: A Systematic
+  Review on Approaches, Tools, Challenges andPractices}
+    \verb{url}
+    \verb https://ieeexplore.ieee.org/document/7884954
+    \endverb
+    \field{day}{22}
+    \field{month}{03}
+    \field{year}{2017}
+    \field{urlday}{15}
+    \field{urlmonth}{12}
+    \field{urlyear}{2021}
+  \endentry
+
+  \entry{RedHat2018}{online}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={RedHat},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{What is CI/CD?}
+    \verb{url}
+    \verb https://www.redhat.com/en/topics/devops/what-is-ci-cd
+    \endverb
+    \field{day}{31}
+    \field{month}{01}
+    \field{year}{2018}
+    \field{urlday}{28}
+    \field{urlmonth}{11}
+    \field{urlyear}{2021}
+  \endentry
+\enddatalist
 \endinput
