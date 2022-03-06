@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.7.7)  6 MAR 2022 14:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.7.7)  6 MAR 2022 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1593,19 +1593,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 (./FrontBackmatter/Contents.tex
 Package tocbasic Info: character protrusion at toc deactivated on input line 8.
 
- (./00_htwsaar-i-mst-vorlage.toc)
+ (./00_htwsaar-i-mst-vorlage.toc [7
+
+
+
+])
 \tf@toc=\write6
 \openout6 = `00_htwsaar-i-mst-vorlage.toc'.
 
-) [7
-
-
-
-] [8
-
-
-
-]
+) [8]
 \openout2 = `02_chapters.aux'.
 
 
@@ -1618,6 +1614,9 @@ n, De-li-ve-ry and De-ploy-ment (CICD)
  []
 
 [1
+
+
+
 
 
 
@@ -1659,15 +1658,19 @@ chapter 5.
 
 ] (./Chapters/FallStudie/Projektbeschreibung.tex
 chapter 6.
-) [11
+(./Chapters/FallStudie/Anforderungen.tex) (./Chapters/FallStudie/Konzeption.tex
+) (./Chapters/FallStudie/Entwicklungsvorgang.tex)
+(./Chapters/FallStudie/Implementierung.tex)
+(./Chapters/FallStudie/Aufbau-umgebung.tex)
+(./Chapters/FallStudie/Implementierung-Release-Management.tex)) [11
 
 
-] [12
-
-
-] (./Chapters/Evaluation.tex
+] [12]
+(./Chapters/Evaluation.tex
 chapter 7.
 ) [13
+
+
 
 
 ] [14
@@ -1751,10 +1754,10 @@ Package logreq Info: Writing requests to '00_htwsaar-i-mst-vorlage.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36488 strings out of 481239
- 718916 string characters out of 5920378
- 1568058 words of memory out of 5000000
- 50897 multiletter control sequences out of 15000+600000
+ 36558 strings out of 481239
+ 720885 string characters out of 5920378
+ 1569034 words of memory out of 5000000
+ 50937 multiletter control sequences out of 15000+600000
  553073 words of font info for 85 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  76i,19n,125p,10119b,2280s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1763,10 +1766,10 @@ e/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/c
 m-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/up
 lb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on 00_htwsaar-i-mst-vorlage.pdf (30 pages, 154358 bytes).
+Output written on 00_htwsaar-i-mst-vorlage.pdf (30 pages, 158297 bytes).
 PDF statistics:
- 308 PDF objects out of 1000 (max. 8388607)
- 245 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
- 20218 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 371 PDF objects out of 1000 (max. 8388607)
+ 307 compressed objects within 4 object streams
+ 65 named destinations out of 1000 (max. 500000)
+ 20314 words of extra memory for PDF output out of 20736 (max. 10000000)
 
