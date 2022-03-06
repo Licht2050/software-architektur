@@ -14,13 +14,13 @@ Zu Beginn müssen einige von J. Humble und D. Farley \cite{JezHumble2010} genann
 	\item \textbf{Integration} ist in der Sprache der Prozess der Eingliederung, der als Eingliederung in eine größere Einheit definiert ist. In der Welt der Informatik ist Integration die Aktion, die durchgeführt wird, um separate Quellcodes zu kombinieren, um festzustellen, wie sie als Ganzes funktionieren.
 	
 \end{itemize}
-\ \\
+%
 \textit{Continuous Integration (Kontinuierliche Integration)(CI)} ist eine Reihe von Regeln und Praktiken in der Softwareentwicklung, an denen Entwicklungsteams beteiligt sind \cite{Meyer2014}. Jedes Teammitglied übernimmt die Verantwortung für die tägliche Integration und Zusammenführung des entwickelten Codes. Unter dem Begriff der Continuous Integration werden viele Perspektiven und Vorteile gesehen. Durch den Einsatz dieser Methode wurde festgestellt, dass sie dazu beiträgt, die Probleme bei der Integration erheblich zu reduzieren, was es einem Team ermöglicht, Software harmonisch und schneller zu entwickeln \cite{Fowler2006}. Der Grund dafür ist laut M. Shahin und M. Barbar, dass CI Softwareunternehmen aller Größenordnungen kürzere und häufigere Release-Zyklen ermöglicht, die Produktivität ihrer Teams erhöht und die Qualität ihrer Software verbessert. Die Automatisierung der Softwareerstellung und der Unit-/Integrationstests ist in dieser Praxis enthalten \cite{Shahin2017}. Ein erfolgreicher CI-Prozess bedeutet daher, dass neue Änderungen am Code erstellt, getestet und konsistent in ein gemeinsames Repository in einem Versionskontrollsystem wie GitHub oder GitLab zusammengeführt werden \cite{RedHat2018}. Kurz gefasst, kontinuierliche Integration legt großen Wert auf automatisierte Tests, um sicherzustellen, dass die Anwendung nicht abbricht, wenn neue Übertragungen in den main-Branch integriert werden \cite{Atlassian}.
 
 \section{Continuous Delivery und Deployment}
 
 \textit{Continuous Delivery (Kontinuierliche Bereitstellung)(CD)} ist eine Erweiterung der Continuous Integration, da alle Codeänderungen nach der Build- und Test-Phase in Produktionsumgebungen bereitgestellt werden. Das heißt, dass zusätzlich zum automatisierten Testen einen automatisierten Freigabeprozess (Release) gibt, die jederzeit per Mausklick bereitgestellt werden kann. Theoretisch hat der Entwickler die Entscheidung, wann einen neuen Release bereitgestellt werden kann bzw. täglich, wöchentlich, oder monatlich. Wenn der Entwickler jedoch wirklich von den Vorteilen der Continuous Delivery profitieren will, Atlassian empfiehlt, die Delivery für die Produktion so früh wie möglich vorzunehmen, um sicherzustellen, dass kleine Chargen freigegeben wird, die im Falle eines Problems leicht zu beheben sind \cite{Atlassian}. Die Continuous Delivery prüft den Code automatisch, erfordert aber einen menschlichen Eingriff, um die Delivery der Änderungen manuell auszulösen \cite{GitLab:CD}.
-
+\newline \newline
 \textit{Continuous Deployment (Kontinuierliche Verteilung)(CD)} ist ein weiterer Schritt über Continuous Integration hinaus, der ähnlich wie Continuous Delivery ist. Der Unterschied besteht darin, dass die Anwendungen automatisch bereitstellen können, anstatt Anwendungen manuell bereitzustellen. Bei diesem Verfahren wird jede Änderung, die alle Phasen der Produktionspipeline durchläuft, automatisch für die Kunden freigegeben. Es gibt keine menschlichen Eingriffe, und nur ein fehlgeschlagener Test verhindert, dass eine neue Änderung in der Produktion bereitgestellt wird \cite{Atlassian}. Nach Bestehen der automatisierten Tests können Änderungen an einer Anwendung innerhalb von Minuten nach deren Erstellung in Betrieb genommen werden \cite{GitLab:CD}. Der größte Vorteil der Continous Deployment ist, dass die Kunden die Verbesserungen direkt sehen können, in der die Qualität jeden Tag steigt, anstatt jeden Monat oder jedes Jahr \cite{Atlassian}. Die Abbildung ~\ref{fig:zusammenhandCICD} hebt die Zusammenhang von CI/CD hervor.
 
 \begin{figure}[!htbp]%[bth] 
@@ -53,7 +53,7 @@ CI/CD-Tools können einem Team helfen, seine Entwicklung, Bereitstellung und Tes
 	\item \textbf{Aufgaben (engl. Tasks):} Concourse definiert Tasks als „die kleinste konfigurierbare Einheit in der Concourse-Pipeline“ \cite{ConcourseCI:tasks}. Entwickler können sich Concourse-Aufgaben als Funktionen vorstellen, die Arbeit erledigen.
 	
 \end{itemize}
-\ \\
+%%
 Listing~\ref{ConcourseHelloWorld} verdeutlicht, wie eine einfache Pipeline mit Concourse CI erstellt werden kann, die “Hello, world” ausgibt, wenn die Pipeline ausgelöst wird. Außerdem zeigt die Abbildung~\ref{fig:ConcourseHelloWorld}, wie das Ergebnis in Build Nr.01 aussieht. Nach erfolgreicher Ausführung des Jobs wird die Pipeline grün, ansonsten Rot.
 
 \lstinputlisting
@@ -71,7 +71,7 @@ Listing~\ref{ConcourseHelloWorld} verdeutlicht, wie eine einfache Pipeline mit C
 
 \textit{GitLab} ist ein webbasiertes Git-Repository, das kostenlose offene und private Repositories bereitstellt. 
 Außerdem ist GitLab eine vollständige DevOps-Plattform, die Entwicklungs-, Betriebs- und Sicherheitsteams in einer einzigen Anwendung vereint. Der Hauptvorteil der Verwendung von GitLab besteht darin, dass alle Teammitglieder in jeder Projektphase zusammenarbeiten können. Es bietet Nachverfolgung von der Planung bis zur Erstellung, um Entwicklern zu helfen, den gesamten DevOps-Lebenszyklus zu automatisieren und die bestmöglichen Ergebnisse zu erzielen. Immer mehr Entwickler verwenden GitLab aufgrund seiner umfangreichen Funktionen und der Verfügbarkeit von Code-Bausteinen. Aus diesem Grund wurde GitLab von verschiedenen großen Unternehmen wie Nvidia, Siemens und Cloud Native Computing Foundation benutzt \cite{GitLab:about}. 
-
+\newline \newline
 Die gesamte Konfiguration der Pipeline wird in der YAML-Konfigurationsdatei \textit{.gitlab-ci.yml} gespeichert und besteht aus folgenden Hauptelementen:
 
 \begin{itemize}
