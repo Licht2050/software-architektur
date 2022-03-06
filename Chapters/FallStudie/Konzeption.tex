@@ -10,9 +10,9 @@ Dies macht die Strategie einfach zu handhaben. Neben all diesen Vorteilen hat da
 
 \subsection{Software Update-Architektur der Ampelanlage}
 
-Um die oben genannten Vorteile nutzen zu können, ist es notwendig, eine Internet-Schnittstelle zur Außenwelt zu schaffen. In diesem Zusammenhang und aufgrund der im Raspberry Pi integrierten Internetschnittstelle eignet sich der Raspberry Pi für dieses System,  und weil es sich um ein Minicomputer handelt, erfüllt die in diesem Projekt aufgelistete Anforderungen. Die Abbildung \ref{fig:FW-Update-Strategie} zeigt, wie ein Entwickler, über das im Raspberry Pi integrierte Internetschnittstelle ein Update auf der Ampelanlage übertragen kann, nachdem er die Software auf GitLab hochgeladen hat. Die Verteilung der korrekten Software-Version an den entsprechenden Ampelanlage erfolgt über Raspberry Pis, die direkt mit den Ampelanlagen angeschlossen sind.
+Um die oben genannten Vorteile nutzen zu können, ist es notwendig, eine Internet-Schnittstelle zur Außenwelt zu schaffen. In diesem Zusammenhang und aufgrund der im Raspberry Pi integrierten Internetschnittstelle eignet sich der Raspberry Pi für dieses System,  und weil es sich um ein Minicomputer handelt, erfüllt die in diesem Projekt aufgelistete Anforderungen. Die Abbildung~\ref{fig:FW-Update-Strategie} zeigt, wie ein Entwickler, über das im Raspberry Pi integrierte Internetschnittstelle ein Update auf der Ampelanlage übertragen kann, nachdem er die Software auf GitLab hochgeladen hat. Die Verteilung der korrekten Software-Version an den entsprechenden Ampelanlage erfolgt über Raspberry Pis, die direkt mit den Ampelanlagen angeschlossen sind.
 \newline\newline
-Die Software-Update-Architektur in Abbildung\ref{fig:FW-Update-Strategie} zeigt deutlich, dass für die Anforderungen, die im Abschnitt \ref{anforderungen} aufgelistet sind, eine hierarchische Software-Deployment Topologie dafür geeignet ist. 
+Die Software-Update-Architektur in Abbildung~\ref{fig:FW-Update-Strategie} zeigt deutlich, dass für die Anforderungen, die im Abschnitt~\ref{anforderungen} aufgelistet sind, eine hierarchische Software-Deployment Topologie dafür geeignet ist. 
 \newline\newline
 Die Architektur von Kubernetes, die im Kapital {\LARGE ??} beschrieben wurde, bietet die Möglichkeit ein hierarchische Firmware-Deployment aufzubauen.
 
