@@ -1,0 +1,75 @@
+% ******************************************************************	********************************************
+%
+% **************************************************************************************************************
+\documentclass[twoside,openright,titlepage,numbers=noenddot,%
+								toc=bibliography,toc=listof,%
+                				footinclude=false,headinclude=false,cleardoublepage=empty,%
+								BCOR=5mm,paper=a4,fontsize=12pt,%DIV=14,
+								1.1headlines,     % Zeilenanzahl der Kopfzeilen
+								headsepline,      % Linie unter Kolumnentitel%
+								footsepline,     % Linie unter Fussnote%
+								hidelinks,  % prevent red Boxes around URL and links
+                ngerman%
+                ]{scrreprt}
+
+%***************************************************************************************************************
+% Note: Make all your adjustments in here
+%***************************************************************************************************************
+\input{01_pers-daten}
+\input{Config/htwsaar-i-mst-config}
+
+%********************************************************************
+% Hyphenation
+%*******************************************************
+%\hyphenation{put special hyphenation here}
+
+% ********************************************************************
+% GO!GO!GO! MOVE IT!
+%*******************************************************
+\begin{document}
+\frenchspacing
+\raggedbottom
+\selectlanguage{ngerman} % american ngerman
+\pagenumbering{roman}
+\pagestyle{plain}
+%*******************************************************
+% Frontmatter
+%*******************************************************
+\include{FrontBackmatter/Titlepage}
+\cleardoublepage\include{FrontBackmatter/Declaration}
+%\cleardoublepage\include{FrontBackmatter/ConfidentialityClause} % <-- sollte in der Regel nicht notwendig sein und mit Betreuer/Unternehmen abgeklärt werden
+%\cleardoublepage\include{FrontBackmatter/Acknowledgments}
+\cleardoublepage\include{FrontBackmatter/Abstract}
+\cleardoublepage\include{FrontBackmatter/Contents}
+
+%*******************************************************
+% Mainmatter
+%*******************************************************
+\cleardoublepage
+\pagenumbering{arabic}
+\pagestyle{headings}
+%\pagestyle{scrheadings}
+\input{02_chapters}
+
+%********************************************************************
+% Bibliography/References
+%*******************************************************
+\cleardoublepage\include{FrontBackmatter/Bibliography}
+
+%********************************************************************
+% List of Figures etc.
+%*******************************************************
+\cleardoublepage\include{FrontBackmatter/ListOfs}
+\include{FrontBackmatter/Abbreviations}
+
+% ********************************************************************
+% Appendix/Anhang
+%***************************************************************
+\appendix
+\part*{Anhang}
+%\cleardoublepage\include{Chapters/Anhang-A}
+
+%*******************************************************
+%\cleardoublepage\include{FrontBackmatter/Colophon}
+\end{document}
+% ********************************************************************
