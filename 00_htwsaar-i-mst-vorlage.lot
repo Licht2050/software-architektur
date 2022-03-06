@@ -12,7 +12,11 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+<<<<<<< HEAD
 \contentsline {table}{\numberline {5.1}{\ignorespaces Funktionale Anforderungen\relax }}{20}{table.caption.9}%
+=======
+\contentsline {table}{\numberline {5.1}{\ignorespaces Funktionale Anforderungen\relax }}{10}{table.caption.4}%
+>>>>>>> b2251617bfe3da17e5e8f4cec32dbd36abf1df91
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
