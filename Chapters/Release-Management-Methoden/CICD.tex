@@ -15,7 +15,7 @@ Zu Beginn müssen einige von J. Humble und D. Farley \cite{JezHumble2010} genann
 	
 \end{itemize}
 %
-\textit{Continuous Integration (Kontinuierliche Integration)(CI)} ist eine Reihe von Regeln und Praktiken in der Softwareentwicklung, an denen Entwicklungsteams beteiligt sind \cite{Meyer2014}. Jedes Teammitglied übernimmt die Verantwortung für die tägliche Integration und Zusammenführung des entwickelten Codes. Unter dem Begriff der Continuous Integration werden viele Perspektiven und Vorteile gesehen. Durch den Einsatz dieser Methode wurde festgestellt, dass sie dazu beiträgt, die Probleme bei der Integration erheblich zu reduzieren, was es einem Team ermöglicht, Software harmonisch und schneller zu entwickeln \cite{Fowler2006}. Der Grund dafür ist laut M. Shahin und M. Barbar, dass CI Softwareunternehmen aller Größenordnungen kürzere und häufigere Release-Zyklen ermöglicht, die Produktivität ihrer Teams erhöht und die Qualität ihrer Software verbessert. Die Automatisierung der Softwareerstellung und der Unit-/Integrationstests ist in dieser Praxis enthalten \cite{Shahin2017}. Ein erfolgreicher CI-Prozess bedeutet daher, dass neue Änderungen am Code erstellt, getestet und konsistent in ein gemeinsames Repository in einem Versionskontrollsystem wie GitHub oder GitLab zusammengeführt werden \cite{RedHat2018}. Kurz gefasst, kontinuierliche Integration legt großen Wert auf automatisierte Tests, um sicherzustellen, dass die Anwendung nicht abbricht, wenn neue Übertragungen in den main-Branch integriert werden \cite{Atlassian}.
+\textit{Continuous Integration (Kontinuierliche Integration)(CI)} ist eine Reihe von Regeln und Praktiken in der Softwareentwicklung, an denen Entwicklungsteams beteiligt sind \cite{Meyer2014}. Jedes Teammitglied übernimmt die Verantwortung für die tägliche Integration und Zusammenführung des entwickelten Codes. Unter dem Begriff der Continuous Integration werden viele Perspektiven und Vorteile gesehen. Durch den Einsatz dieser Methode wurde festgestellt, dass sie dazu beiträgt, die Probleme bei der Integration erheblich zu reduzieren, was es einem Team ermöglicht, Software harmonisch und schneller zu entwickeln \cite{Fowler2006}. Der Grund dafür ist laut M. Shahin und M. Barbar, dass CI Softwareunternehmen aller Größenordnungen kürzere und häufigere Release-Zyklen ermöglicht, die Produktivität ihrer Teams erhöht und die Qualität ihrer Software verbessert. Die Automatisierung der Softwareerstellung und der Unit-/Integrationstests ist in dieser Praxis enthalten \cite{Shahin2017}. Ein erfolgreicher CI-Prozess bedeutet daher, dass neue Änderungen am Code erstellt, getestet und konsistent in ein gemeinsames Repository in einem Versionskontrollsystem wie GitHub oder GitLab zusammengeführt werden \cite{RedHat2018}. Kurz gefasst, kontinuierliche Integration legt großen Wert auf automatisierte Tests, um sicherzustellen, dass die Anwendung nicht abbricht, wenn neue Übertragungen in den \textit{main} Branch integriert werden \cite{Atlassian}.
 
 \section{Continuous Delivery und Deployment}
 
@@ -53,7 +53,7 @@ CI/CD-Tools können einem Team helfen, seine Entwicklung, Bereitstellung und Tes
 	\item \textbf{Aufgaben (engl. Tasks):} Concourse definiert Tasks als „die kleinste konfigurierbare Einheit in der Concourse-Pipeline“ \cite{ConcourseCI:tasks}. Entwickler können sich Concourse-Aufgaben als Funktionen vorstellen, die Arbeit erledigen.
 	
 \end{itemize}
-%%
+\ \\\\
 Listing~\ref{ConcourseHelloWorld} verdeutlicht, wie eine einfache Pipeline mit Concourse CI erstellt werden kann, die “Hello, world” ausgibt, wenn die Pipeline ausgelöst wird. Außerdem zeigt die Abbildung~\ref{fig:ConcourseHelloWorld}, wie das Ergebnis in Build Nr.01 aussieht. Nach erfolgreicher Ausführung des Jobs wird die Pipeline grün, ansonsten Rot.
 
 \lstinputlisting
@@ -62,7 +62,7 @@ Listing~\ref{ConcourseHelloWorld} verdeutlicht, wie eine einfache Pipeline mit C
 
 \begin{figure}[!htbp]%[bth] 
 	\centering
-	\includegraphics[width=0.9\textwidth]{Graphics/concourse-ci-job-success.png}
+	\includegraphics[width=1.0\textwidth]{Graphics/concourse-ci-job-success.png}
 	\caption{Drucken von 'Hello, World!' nach Auslösen des “hello-world” Auftrag}
 	\label{fig:ConcourseHelloWorld}
 \end{figure}
@@ -95,8 +95,8 @@ Nach einem erfolgreichen Lauf der Pipeline wird sie als bestanden (engl. passed)
 
 \begin{figure}[!htbp]%[bth] 
 	\centering
-	\includegraphics[width=0.9\textwidth]{Graphics/GitLab-passed_pipeline.png}
-	\caption{Liste von Pipelines, die al bestanden (engl. passed) markiert wurde}
+	\includegraphics[width=1.0\textwidth]{Graphics/GitLab-passed_pipeline.png}
+	\caption{Liste von Pipelines, die al bestanden (engl. passed) markiert sind}
 	\label{fig:GitLabPipeLinePassed}
 \end{figure}
  
@@ -105,7 +105,7 @@ Außerdem, wird diese einfache Pipeline wie auf der Abbildung~\ref{fig:GitLabHel
 
 \begin{figure}[!htbp]%[bth] 
 	\centering
-	\includegraphics[width=0.7\textwidth]{Graphics/GitLab-helloWorld_pipeline.png}
+	\includegraphics[width=0.8\textwidth]{Graphics/GitLab-helloWorld_pipeline.png}
 	\caption{Einfache hello world pipeline in GitLab}
 	\label{fig:GitLabHelloWorldPipeline}
 \end{figure}
@@ -123,7 +123,9 @@ Für weitere Informationen hat der Entwickler die Möglichkeit, einen Blick auf 
 \subsection{CircleCI}
 
 \textit{CircleCI} ist eine Plattform für kontinuierliche Integration und Bereitstellung, die Entwicklungsteams bei der schnellen Veröffentlichung von Code und der Automatisierung von Build, Test und Bereitstellung unterstützt. CircleCI kann so konfiguriert werden, dass sehr komplexe Pipelines mit Caching, Docker Layer Caching, Ressourcenklassen und vielem mehr effizient ausgeführt werden \cite{CircleCI:homepage}.
-CircleCI sendet auch eine E-Mail- oder Slack-Benachrichtigung über Erfolg oder Misserfolg nach Abschluss der Tests \cite{CircleCI:notifications}.Führende Unternehmen wie Docker, Heroku, Kickstarter, Nextdoor, Udemy, Coinbase und Cucumber haben ihren Entwicklungsprozess erfolgreich über CircleCI durchgeführt \cite{CircleCI:customers}. Auf diese Weise gelang es ihnen, die Lieferung zu beschleunigen und die Produktqualität zu verbessern. Außerdem ist die Konfigurationsdatei vom CircleCI in YAML geschrieben und das Tool unterstützt viele Programmiersprachen. CircleCI bietet 1.000 Build-Minuten pro Monat und unbegrenzte Repos in einem kostenlosen Plan. Allerdings, stehen Skalierbare bezahlte Pläne zur Verfügung, wenn die kostenlose Plan nicht reicht \cite{CircleCI:pricing}.
+CircleCI sendet auch eine E-Mail- oder Slack-Benachrichtigung über Erfolg oder Misserfolg nach Abschluss der Tests \cite{CircleCI:notifications}.Führende Unternehmen wie Docker, Heroku, Kickstarter, Nextdoor, Udemy, Coinbase und Cucumber haben ihren Entwicklungsprozess erfolgreich über CircleCI durchgeführt \cite{CircleCI:customers}. Auf diese Weise gelang es ihnen, die Lieferung zu beschleunigen und die Produktqualität zu verbessern.
+\newline
+Außerdem ist die Konfigurationsdatei vom CircleCI in YAML geschrieben und das Tool unterstützt viele Programmiersprachen. CircleCI bietet 1.000 Build-Minuten pro Monat und unbegrenzte Repos in einem kostenlosen Plan. Allerdings, stehen Skalierbare bezahlte Pläne zur Verfügung, wenn die kostenlose Plan nicht reicht \cite{CircleCI:pricing}.
 
 \subsection{Jenkins}
 
