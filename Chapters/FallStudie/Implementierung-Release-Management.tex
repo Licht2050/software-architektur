@@ -7,7 +7,7 @@ In der Buildphase wird die benötigte Dateien und deren Abhängigkeiten überset
 
 \subsubsection{Umsetzung der Continues Integration und Continues Delivery Methode}
 
-Nun nach der Entwicklungsphase kommt die CD-Phase zustande. Nach dem Start der CD-Pipeline beginnt die kontinuierliche Deployment-Phase an. Zu CD gehört die Build-,Release- und die Deployment-Phase. Um Continues Integration und Continues Delivery mit GitLab nutzen zu können, wird einen GitLab Runner benötigt. GitLab Runner ist eine Build-Instanz, die verwendet wird, um Aufgaben auf mehreren Computern auszuführen und die Ergebnisse durch „artifacts“ an GitLab zu übertragen.
+Nun nach der Entwicklungsphase kommt die \ac{CD}-Phase zustande. Nach dem Start der \ac{CD}-Pipeline beginnt die kontinuierliche Deployment-Phase an. Zu \ac{CD} gehört die Build-,Release- und die Deployment-Phase. Um Continues Integration und Continues Delivery mit GitLab nutzen zu können, wird einen GitLab Runner benötigt. GitLab Runner ist eine Build-Instanz, die verwendet wird, um Aufgaben auf mehreren Computern auszuführen und die Ergebnisse durch „artifacts“ an GitLab zu übertragen.
 \newline\newline
 In diesem Projekt wird der Gitlab Runner auf dem Master-Node konfiguriert und mit einem Executer vorgesehen, der die vordefinierten Aufgaben in Gitlab aus-
 führt. Sobald der Runner registriert ist, initiiert das Runner Tag die Kommunikation zwischen der Gitlab-Plattform und dem Master-Node, auf dem der Runner installiert ist. Die möglichen Executors sind beispielsweise SSH, Shell, Docker, Kubernetes und einige andere. In diesem Projekt wird Kubernetes-Executer benutzt.
@@ -55,4 +55,6 @@ Preparation-Stage ist für die dynamische Erstellung von Deployment-Stages veran
 
 Nachdem die YAML-Datei dynamisch für die Übertragung erstellt wurden, wird die Software automatisch direkt auf den benötigten Raspberry Pi übertragen. Um dies zu ermöglichen, wird an dieser Stelle die Datei “triger-child-pipeline.yaml „ wie oben bereits erwähnt über Trigger aufgerufen und dies führt zum Start der Child-Pipelines der Ziel-RaspberryPis. Jede Child-Pipeline überträgt die ihr zugewiesene Informationen unabhängig von den anderen Child-Pipelines auf ihren Ziel-Raspberry Pi durch den Master-Node und der Fortschritt der Arbeit wird auf GitLab angezeigt. Die Software wird als Docker-Image aus dem DockerRepository heruntergeladen und ausgeführt. Der gestartete Docker Container stellt sicher, dass eine korrekte Umgebung für die Ausführung eines Python-Skripts eingestellt ist.
 
+\subsubsection*{Clean-Stage}
 
+Da die Runner in preparation-Stage erstellt wurden, um Deployment-Stage auszuführen, ist eine Phase erforderlich, um diese Runner, dynamisch zu löschen. Aus diesem Grund werden die in Clean-Stage erstellten Runners dynamisch deinstalliert.
