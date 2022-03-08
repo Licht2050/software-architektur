@@ -25,11 +25,10 @@ Nachdem der Prozess Merge von \textit{develop} Branch mit \textit{main} Branch g
 \subsubsection*{Release Phase}
 
 Nach erfolgreichem Merge-Prozess kann die weitere \ac{CI/CD}-Phase fortgesetzt werden. Nach der Vergabe des Release-Tags wird die Pipeline gestartet und die zweite Pipeline-Stage dieses Projektes ist die \glqq Publish and Release Phase\grqq. In dieser Phase wird die entwickelte Software als Docker-Image gekapselt, auf die Dockerhub-Plattform hochgeladen und zur Übertragung und/oder Installation bereitgestellt. Für die Ausführung dieser Phase wird erneuert der Runner der Master-Node benötigt. Durch das Hochladen des Images wird einen neuen Release erstellt. Außerdem wird ein gewohnliche Release auf dem GitLab-Plattform erstellt. Die Abbildung~\ref{fig:release-stage} veranschaulicht die Release-Phase anhand eines Sequenzdiagramm.
-
-
+\pagebreak
 \begin{figure}[bth] 
 	\centering
-	\includegraphics[width=0.9\textwidth]{Graphics/release.png}
+	\includegraphics[width=0.8\textwidth]{Graphics/release.png}
 	\caption{Publish on Docker Hub}
 	\label{fig:release-stage}
 \end{figure}
